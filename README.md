@@ -5,7 +5,7 @@
 taskId,taskDuration,dependencyTaskId
 ```
 - `dependencyTaskId` should be zero if it does not depend on other tasks
-- `taskId` and `taskDuration` cannot be less than zero
+- `taskId` and `taskDuration` must be greater than zero
 
 ## Usage
 ### Input

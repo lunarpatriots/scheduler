@@ -20,7 +20,7 @@ public class Main {
                 if (task.getDependencyTaskId() == 0L) {
                     tasksWithoutDependency.add(task);
                 } else if (task.getDependencyTaskId() < 0L) {
-                    tasksWithDependency.add(task);
+                    throw new InvalidInputException("Dependency task Id should be greater than 0");
                 } else {
                     tasksWithDependency.add(task);
                 }

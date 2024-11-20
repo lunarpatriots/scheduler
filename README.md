@@ -1,6 +1,6 @@
 # Scheduler
 
-##Input format
+## Input format
 ```
 taskId,taskDuration,dependencyTaskId
 ```
